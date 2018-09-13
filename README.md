@@ -115,7 +115,7 @@ const interpreters = {
 };
 
 // Add the interpreters to the effects-as-data runtime
-addInterpreters(addInterpreters);
+addInterpreters(interpreters);
 
 const writeFile = (path, content) => ({
   type: "writeFile",
